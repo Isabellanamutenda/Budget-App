@@ -5,6 +5,7 @@ class ActivitiesController < ApplicationController
     @transactions = Activity.includes(:groups).where("groups.id = #{params[:group_id]}").references(:groups)
     @transactions.each do |activity|
       @total_amount += activity.amount
+   end
   end
 
   def new
