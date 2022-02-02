@@ -1,6 +1,10 @@
 class ActivitiesController < ApplicationController
   def index
     @group = Group.find_by(id: params[:group_id])
+    @total_amount = 0
+    @transactions = Activity.includes(:groups).where("groups.id = #{params[:group_id]}").references(:groups)
+    @transactions.each do |activity|
+      @total_amount += activity.amount
   end
 
   def new
