@@ -6,7 +6,7 @@
 
 
 ## Live Demo
-[Here] (https://medamine-budget-app.herokuapp.com/) is the live demo
+[Here](https://medamine-budget-app.herokuapp.com/) is the live demo
 ## Built With
 
 - Ruby
