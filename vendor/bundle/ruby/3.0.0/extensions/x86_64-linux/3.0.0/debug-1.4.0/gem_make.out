@@ -1,0 +1,16 @@
+current directory: /home/isabella/Desktop/Budget-App/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+/home/isabella/.rvm/rubies/ruby-3.0.0/bin/ruby -I /home/isabella/.rvm/rubies/ruby-3.0.0/lib/ruby/site_ruby/3.0.0 -r ./siteconf20220204-162473-89n0rm.rb extconf.rb
+creating Makefile
+
+current directory: /home/isabella/Desktop/Budget-App/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /home/isabella/Desktop/Budget-App/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/isabella/Desktop/Budget-App/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= install
+/usr/bin/install -m 0755 debug.so ./.gem.20220204-162473-hwhkh6/debug
